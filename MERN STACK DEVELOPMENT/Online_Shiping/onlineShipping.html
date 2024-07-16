@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirates Online Shopping</title>
+    <link rel="stylesheet" href="onlineShipping.css">
+</head>
+
+<body>
+    <center>
+        <h1 class="Heading">Welcome to Pirates - Online Shopping</h1>
+        <form onsubmit="return false">
+            <table class="Table" border="1">
+                <tr>
+                    <th>
+                        <label for="pName">Customer Name</label>
+                    </th>
+                    <td>
+                        <input type="text" name="pName" id="pName" placeholder="Enter Customer Name">
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>
+                        <label for="PMobileNumber">Mobile Number</label>
+                    </th>
+                    <td>
+                        <input type="tel" name="PMobileNumber" id="PMobileNumber" placeholder="Enter your mobile no">
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>
+                        <label for="pEmail">Email ID</label>
+                    </th>
+                    <td><input type="email" name="pEmail" id="pEmail" placeholder="Enter your Email ID"></td>
+
+                </tr>
+                <tr>
+                    <th>
+                        <label for="pAddress">Billing Address</label>
+                    </th>
+                    <td>
+                        <textarea cols="30" rows="5" id="pAddress" name="pAddress"
+                            placeholder="Enter your Address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="pChoose">Choose Product</label>
+                    </th>
+                    <td>
+                        <select id="pChoose" name="pChoose">
+                            <option value="TV">TV</option>
+                            <option value="Mobiles">Mobiles</option>
+                            <option value="Fridge">Fridge</option>
+                            <option value="Washing_machine">Washing machine</option>
+                            <option value="Labtops">Labtops</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="pQuantity">Enter Quantity</label>
+                    </th>
+                    <td>
+                        <input type="number" name="pQuantity" id="pQuantity" placeholder="Enter Quantity">
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>
+                        <label for="pPayment">Payment Method</label>
+                    </th>
+                    <td>
+                        <select name="pPayment" id="pPayment">
+                            <option value="Cash_on_Delivery">Cash on Delivery</option>
+                            <option value="Online_Mood">Online Mood</option>
+                            <option value="EMI">EMI</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="pBag">Bag Total</label>
+                    </th>
+                    <td><input type="number" name="pBag" id="pBag" placeholder="Enter Total Bag Count"></td>
+                </tr>
+                <tr>
+                    <th><label for="pCoupon">Coupon Code</label></th>
+                    <td><input type="text" name="pCoupon" id="pCoupon" placeholder="Enter your Coupon Code"></td>
+                </tr>
+                <tr>
+                    <th>Delivery Options</th>
+                    <td>
+                        <input type="radio" name="pOptions"> Express
+                        <input type="radio" name="pOptions"> Standard
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox"> I Agree to the Terms & Conditions
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="reset">Clear</button>
+                    </td>
+                    <td>
+                        <button type="submit">Chk.Amount Payable</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">-</td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>

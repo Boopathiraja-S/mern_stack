@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(248, 248, 53, 0.664);
+}
+.Heading{
+    background-color: orangered;
+    color: white;
+    padding: 15px;
+    margin: 5px 0px 50px;
+    /* position: sticky;
+    top: 0px; */
+}
+.Table{
+    background-color: rgb(25, 221, 25);
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    box-shadow: 10px 15px 10px black;
+    border: solid white;
+    margin: 0px 0px 50px;
+}
+.Table td{
+    padding: 6px;
+}
+
+.Table textarea {
+    resize: none;
+    /* To prevent adjust the size from the user side */
+}
+
+.Table button{
+    background-color: rgba(212, 207, 207, 0.863);
+}
+.Table button:hover{
+    cursor: pointer;
+}
+@media screen and (max-width:700px){
+    .Heading{
+        font-size: 25px;
+    }
+    
+    .Table{
+        width: 90%;
+        height: auto;
+    }
+}
